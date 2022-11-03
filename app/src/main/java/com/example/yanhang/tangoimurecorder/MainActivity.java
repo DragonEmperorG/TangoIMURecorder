@@ -340,9 +340,9 @@ public class MainActivity extends AppCompatActivity
         // Set up GPS
 
 
-        startActivityForResult(
-                Tango.getRequestPermissionIntent(Tango.PERMISSIONTYPE_ADF_LOAD_SAVE), REQUEST_CODE_AREA_LEARNING
-        );
+//        startActivityForResult(
+//                Tango.getRequestPermissionIntent(Tango.PERMISSIONTYPE_ADF_LOAD_SAVE), REQUEST_CODE_AREA_LEARNING
+//        );
     }
 
 
